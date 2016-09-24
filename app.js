@@ -66,7 +66,7 @@ var funcSix = function() {
 
   var answerSix = prompt('Name a location I have mentioned').toLowerCase();
 
-  var myArray = ['washington','florida','qatar','los angeles','arizona'];
+  var myArray = ['washington','florida','qatar','california','arizona'];
   if (myArray.indexOf(answerSix) === -1) {
     alert('You seem to be losing the guessing game');
   } else {
